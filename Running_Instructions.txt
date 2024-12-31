@@ -1,0 +1,16 @@
+1.  We have made 2 different files "Sender_n.py" and "Receiver_n.py" to run the sender and receiver separately.
+
+2.  To start the sender and receiver simulateneously, we have written a run.py script.
+
+3.  For running the run.py script, download "konsole" using sudo apt install konsole.
+
+4.  Put all your messages in the messages.txt file and while running the sender, press enter to send each 
+    messages in sequence.
+
+5.  The messages recieved will be appended in "receive.txt" and the messages sent will be appended to "send.txt".
+
+6.  The time parameters for timeout, SIFS, etc. may be need to be adjusted depending on the laptops and 
+    testing conditions.
+
+** Synchronize the time for all the three nodes by following the instructions from this website:
+    https://tecadmin.net/synchronizing-a-linux-system-clock-with-ntp-server/
